@@ -2,6 +2,7 @@
   --primary-color: rgb(13, 146, 241);
   --secondary-color: rgb(104, 241, 207);
   --third-color: rgb(224, 140, 231);
+  --fourth-color: white;
   --gradient: linear-gradient(
     106.8deg,
     rgb(117, 255, 220) 6%,
@@ -9,10 +10,13 @@
     rgb(248, 215, 251) 87.8%
   );
   --box-shadow: 5px 5px 10px rgb(30, 50, 120);
+  --first-font-family: "Laila", sans-serif;
+  --second-font-family: "Poppins", sans-serif;
+  --third-font-family: "Playfair Display", serif;
 }
 
 body {
-  font-family: "Laila", sans-serif;
+  font-family: var(--first-font-family);
   max-width: 900px;
   padding: 0 20px;
   background: var(--gradient);
@@ -27,6 +31,7 @@ h3 {
 
 h1 {
   font-size: 80px;
+  font-family: var(--second-font-family);
 }
 
 h2 {
@@ -36,6 +41,7 @@ h2 {
 h3 {
   font-size: 20px;
   opacity: 0.2px;
+  font-family: var(--third-font-family);
 }
 
 .links {
@@ -64,7 +70,7 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: 1px solid var(--primary-color);
-  color: white;
+  color: var(--fourth-color);
 }
 
 .about-link:hover {
@@ -119,6 +125,14 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
   color: var(--third-color);
+}
+
+.inquiry {
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: var(--fourth-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 576px) {
