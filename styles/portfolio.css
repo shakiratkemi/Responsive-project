@@ -135,6 +135,11 @@ h3 {
   color: var(--primary-color);
 }
 
+.footer p {
+  font-size: 14px;
+  text-align: left;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
