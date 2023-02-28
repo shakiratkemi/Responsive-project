@@ -137,7 +137,7 @@ h3 {
   color: var(--primary-color);
 }
 
-.footer code-link a,
+.code-link a,
 .contact-container a {
   text-decoration: none;
   color: rgb(16, 16, 16);
