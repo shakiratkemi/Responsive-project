@@ -133,12 +133,14 @@ h3 {
   padding: 20px 15px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
-  background: var(--fourth-color);
+  background: rgb(16, 16, 16);
   color: var(--primary-color);
 }
 
-.footer a {
+.footer code-link a,
+.contact-container a {
   text-decoration: none;
+  color: rgb(16, 16, 16);
 }
 
 @media (max-width: 576px) {
