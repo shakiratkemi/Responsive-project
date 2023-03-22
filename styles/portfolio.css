@@ -116,18 +116,34 @@ h3 {
   color: var(--primary-color);
 }
 
-.email-link {
+.footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
   display: flex;
   justify-content: center;
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.email-link:hover {
+footer .email-link:hover {
   text-decoration: underline;
   color: var(--third-color);
 }
 
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--third-color);
+}
 .hero,
 .inquiry {
   padding: 20px 15px;
